@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi primera pagina Web</title>
 </head>
 <body>
-    
+    <!-- El proposito de la pagina es realizar los ejercicios de la clase 06 -->
+    <div>
+        <ul>
+            <li>Mi nombre es Gaston <a href="https://www.facebook.com/gastongk1/">facebook</a></li>
+            <li>Me gusta todo lo referente a la tecnología</li>
+            <li>Practico natación</li>
+        </ul>
+    </div>
+    <div>
+        <h1>Bienvenido a mi sitio web</h1>
+        <h2>Quien soy yo</h2>
+        <h3>Mi experiencia</h3>
+    </div>
+    <div>
+        <ol>
+            <li>Programacion en c++</li>
+            <li>Diseño grafico</li>
+            <li>Proactivo</li>
+        </ol>
+    </div>
+    <div>
+        <p>Te gusta la programacion <a href="https://theblackboxlab.com/2022/10/19/las-mejores-paginas-web-para-programadores/">Sigue este enlace</a></p>
+        <table border="1">
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>JAVA</td>
+                <td>Java script</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div>
+        <form action="procesar" method="post">
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label for="Intereses"></label>
+            <select name="Intereses" id="Intereses">
+                <option value="Programacion">Programación</option>
+                <option value="Diseño">Diseño</option>
+                <option value="Aprendizaje">Aprendizaje</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 </body>
 </html>
